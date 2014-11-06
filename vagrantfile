@@ -1,0 +1,10 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.provision "shell",
+    inline: "apt-get update -qq; apt-get install -qq -y build-essential devscripts dh-make debhelper libssl-dev liblzo2-dev libpam0g-dev libpkcs11-helper1-dev pkg-config dpkg-dev iproute2 net-tools"
+end
