@@ -1,10 +1,10 @@
-openvpn (2.3.5-0ubuntu1) trusty; urgency=low
+openvpn (2.3.5-0ubuntu1) unstable; urgency=low
 
   * New upstream release.
 
- -- Zachary Huff <zach.huff.386@gmail.com>  Thu, 06 Nov 2014 14:40:35 +0100
+ -- Pritunl <contact@pritunl.com>  Thu, 06 Nov 2014 14:40:35 +0100
 
-openvpn (2.3.2-7ubuntu3) trusty; urgency=medium
+openvpn (2.3.2-7ubuntu3) unstable; urgency=medium
 
   [ Simon Deziel ]
   * Refresh delta with debian/openvpn.init.d:
@@ -14,13 +14,13 @@ openvpn (2.3.2-7ubuntu3) trusty; urgency=medium
 
  -- Stéphane Graber <stgraber@ubuntu.com>  Tue, 04 Feb 2014 09:31:39 -0500
 
-openvpn (2.3.2-7ubuntu2) trusty; urgency=medium
+openvpn (2.3.2-7ubuntu2) unstable; urgency=medium
 
   * Patch libtool.m4 and configure to support ppc64el.
 
  -- Matthias Klose <doko@ubuntu.com>  Mon, 30 Dec 2013 12:32:35 +0100
 
-openvpn (2.3.2-7ubuntu1) trusty; urgency=low
+openvpn (2.3.2-7ubuntu1) unstable; urgency=low
 
   * Merge from Debian unstable. Remaining changes:
     - debian/openvpn.init.d:
@@ -47,7 +47,7 @@ openvpn (2.3.2-6) unstable; urgency=low
 
  -- Alberto Gonzalez Iniesta <agi@inittab.org>  Wed, 27 Nov 2013 13:58:33 +0100
 
-openvpn (2.3.2-5ubuntu1) trusty; urgency=low
+openvpn (2.3.2-5ubuntu1) unstable; urgency=low
 
   * Merge from Debian unstable. Remaining changes:
     - debian/openvpn.init.d:
