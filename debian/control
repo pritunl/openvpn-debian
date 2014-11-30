@@ -1,7 +1,7 @@
 Source: openvpn
 Section: net
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Pritunl <contact@pritunl.com>
 XSBC-Original-Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
 Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>> 0.9.8g-9), liblzo2-dev, libpam0g-dev, libpkcs11-helper1-dev, pkg-config, dpkg-dev (>= 1.16.1), iproute [linux-any], net-tools [!linux-any]
 Standards-Version: 3.9.3
